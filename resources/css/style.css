@@ -59,6 +59,7 @@ header {
   display: relative;
   margin-top: 65px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
  
 
@@ -68,7 +69,6 @@ header {
  /* width: 100%;*/
   width: calc(60% + 24px);
   display: inline;
-  
 }
 
 .portion-image img {
@@ -77,7 +77,6 @@ header {
     margin-top: 32px;
     margin-bottom: 32px;
     margin-left: 24px;
-    
 }
 .portion1-text {
   font-family: 'Roboto', sans-serif;
@@ -114,7 +113,8 @@ header {
 }
 
 .portion-lock {
-  border-right: 1px solid #dddddd;;
+  border-right: 1px solid #dddddd;
+  color: #7f7f7f;
   width: calc(60% + 3rem);
   margin-left: 1.5rem;
 }
@@ -132,9 +132,13 @@ header {
    margin-top: 2rem;
    margin-bottom: 1.5rem;
 }
+h2.section-title.bot {
+    margin-bottom: 0;
+}
+
 .site-descripts {
   font-size: .9rem;
-  color: #4f4f4f;
+  color: #7f7f7f;
   margin-bottom: 1rem;
   margin-top: .5rem;
   line-height: 1.5rem;
@@ -147,7 +151,6 @@ header {
 .portion2-menu {
   display: flex;
   flex-direction: column;
-
 }
 .portion2-menu-block {
   width: 26.437rem;
@@ -169,6 +172,7 @@ header {
 }
 .like .menu-heading {
   font-family: 'Roboto', sans-serif;
+  color: #4f4f4f;
   font-size: 1.4rem;
   margin-top: 20%
 }
@@ -180,6 +184,7 @@ header {
   margin-left: 1.6rem;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  color: #9a9ae9
 }
 .add-tops {
   margin-top: 0;
@@ -213,9 +218,13 @@ header {
 
 .portion3-block {
   width: 22.25rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-bottom: 1rem;
 }
+
+
+
 
 .portion3-block img {
   height: 11.375rem;
@@ -231,10 +240,12 @@ header {
 }
 .portion3-heading {
   font-size: 1.5rem;
+  color: #4f4f4f;
   padding-top: .5rem;
 }
 .portion3-mini-heading  {
   font-size: 1.2rem;
+  color: #4f4f4f;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
@@ -260,24 +271,27 @@ header {
 .disclaimer {
   width: 100%;
   height: 4rem;
- background-color: #dddddd;
- font-family: 'Roboto', sans-serif;
- display: flex;
- align-items: center;
+  background-color: #dddddd;
+  color: #7f7f7f;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
 }
 .no-descripts{ 
-  olor: #7f7f7f;
+  color: #7f7f7f;
   display: inline-block;
   display: center;
   flex-grow: 1;
   padding-left: 1.5rem;
    }
-   .disclaimer a {
-    text-align: right;
-    text-decoration: none;
-    margin-right: .8rem;
-    background-color: #dddddd;
+.disclaimer a {
+  text-align: right;
+  text-decoration: none;
+  margin-right: .8rem;
+  background-color: #dddddd;
   }
+
+
 
 
 
