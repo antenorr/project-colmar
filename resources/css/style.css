@@ -110,15 +110,16 @@ header {
 .portion {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
-.portion-lock {
-  
 
+.portion-lock {
   border-right: 1px solid #dddddd;;
-  width: calc(60% + 48px);
-  margin-left: 24px;
-  padding-right: 24px;
+  width: calc(60% + 3rem);
+  margin-left: 1.5rem;
 }
+
+
 .portion-lock img {
   width: 60vw;
   height: auto;
@@ -134,7 +135,9 @@ header {
 .site-descripts {
   font-size: .9rem;
   color: #4f4f4f;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+  line-height: 1.5rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -145,27 +148,24 @@ header {
   display: flex;
   flex-direction: column;
 
-
 }
 .portion2-menu-block {
   width: 26.437rem;
   height: 12rem;
   display: flex;
-  margin-top: 2rem;
   padding-bottom: 1rem;
-    
-
 }
+
 .menu-item-photo {
   width: 35%;
   margin-left: 1rem;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 .like h5, .like p{
   width: 80%;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
 }
 .like .menu-heading {
   font-family: 'Roboto', sans-serif;
@@ -187,6 +187,9 @@ header {
 .portion2-menu .gray {
   background-color: #dddddd;
 }
+.portion2-menu-block.gray.extends {
+    width: 28.5rem;
+}
 
 
 /*--- Portion #3 code ---*/
@@ -206,22 +209,17 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
 }
 
 .portion3-block {
   width: 22.25rem;
   padding-right: 2rem;
   margin-bottom: 1rem;
-
 }
 
 .portion3-block img {
-
   height: 11.375rem;
   width: auto;
-  
-
 }
 .learn-describe {
   background-color: #ffffff;
@@ -247,9 +245,14 @@ header {
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
   margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
+.dismiss {
+  border: none;
+  width: 60%;
+  margin-right: 1rem;
+}
 
 /*-------footer  ------*/
 
@@ -275,6 +278,9 @@ header {
     margin-right: .8rem;
     background-color: #dddddd;
   }
+
+
+
 
 
 
