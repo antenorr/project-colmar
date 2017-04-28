@@ -74,8 +74,8 @@ header {
 .portion-image img {
     width: 90%;
     height: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 24px;
 }
 .portion1-text {
@@ -338,7 +338,22 @@ h2.section-title.bot {
     text-decoration: none;
      color: #7f7f7f;
   } 
-  
+  .portion-jumbo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .portion-image {
+    width: 100vw;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .portion-image img {
+    width: 100vw;
+    margin-left: 0;
+  }
+
 
 
 }
