@@ -338,6 +338,9 @@ h2.section-title.bot {
     text-decoration: none;
      color: #7f7f7f;
   } 
+
+ /* media query portion 1*/
+
   .portion-jumbo {
     text-align: center;
     display: flex;
@@ -350,10 +353,53 @@ h2.section-title.bot {
     margin-right: 0;
   }
   .portion-image img {
-    width: 100vw;
+    height: 20.25rem;
+    width: auto;
     margin-left: 0;
+    margin-right: 0;
+  }
+  .portion1-text .portion1-button {
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    
+  }
+/*media query for portion 2*/
+
+  .portion-lock.text-below {
+    display: none;
+  }
+ 
+  .portion2-menu {
+    
   }
 
+  .portion2-menu-block {
+      width: initial; 
+      height: initial; 
+      display: initial;
+      padding-bottom: 1rem;
+  }
+
+  .menu-item-photo {
+   
+    width: 26.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .like .menu-heading {
+    margin-top: 0;
+  }
+  .like h5, .like p {
+    margin-left: 2rem;
+  }
+  .like .read-more-link {
+    margin-left: 2rem;
+  }
+  .portion2-menu .gray {
+    background-color: #FFFFFF;
+  }
+
+/*portion 3 -portion*/
 
 
 }
@@ -361,30 +407,6 @@ h2.section-title.bot {
 
 
 
-  /*.menu p, span {
-    display: none;
-  }
-  header {
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
-  }
-
-  .navigator li:first-child {
-    background-image: url("../assets/images/ic-on-campus.svg");
-    background-repeat: no-repeat;
-
-  }
-   .navigator li:nth-child(3n+0) {
-    background-image: url("../assets/images/ic-online.svg");
-    background-repeat: no-repeat;
-
-  }
-  .navigator li:nth-child(4n+0) {
-    background-image: url("../assets/images/ic-login.svg");
-    background-repeat: no-repeat;
-
-  }*/
 
  
 
