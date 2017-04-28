@@ -291,9 +291,87 @@ h2.section-title.bot {
   background-color: #dddddd;
   }
 
+/* --- Section Media Quiries ---
+--- Section Media Quiries ---
+--- Section Media Quiries ---
+--- Section Media Quiries ---*/
+@media only screen and (min-width:480px) {
+
+  .mobile-navigator {
+  display: none;
+  }
+  .mobile-navigator ul{
+  display: none;
+  }
+}
+
+@media only screen and (max-width:479px){
+
+  header {
+    display: none;
+  }
+  mobile-header {
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+
+  .mobile-navigator li {
+    display: inline-block;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+  }
+
+  .mobile-navigator li a {
+   
+    text-decoration: none;
+     color: #7f7f7f;
+  } 
+  
+
+
+}
 
 
 
+
+  /*.menu p, span {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+  }
+
+  .navigator li:first-child {
+    background-image: url("../assets/images/ic-on-campus.svg");
+    background-repeat: no-repeat;
+
+  }
+   .navigator li:nth-child(3n+0) {
+    background-image: url("../assets/images/ic-online.svg");
+    background-repeat: no-repeat;
+
+  }
+  .navigator li:nth-child(4n+0) {
+    background-image: url("../assets/images/ic-login.svg");
+    background-repeat: no-repeat;
+
+  }*/
+
+ 
 
 
 
