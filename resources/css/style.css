@@ -27,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 24px;
+  padding-left: 1.5rem;
   color: #7f7f7f;
 }
 .menu p {
@@ -42,10 +42,18 @@ header {
   display: inline-block;
 }
 .navigator li a {
-  margin-right: 16px;
+  margin-right: 1rem;
   text-decoration: none;
-   color: #7f7f7f;
+  color: #7f7f7f;
+  transition: all .2s linear 0s;
 }
+.navigator li a:hover {
+  color: #9a9ae9;
+  letter-spacing: .2rem;
+}
+
+
+
 
 
 
@@ -76,7 +84,8 @@ header {
     height: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 24px;
+    margin-left: 1.5rem;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
 }
 .portion1-text {
   font-family: 'Roboto', sans-serif;
@@ -87,6 +96,9 @@ header {
 .portion1-text h1 {
   font-size: 2.8rem;
   font-weight: 700;
+}
+.coolyo {
+  color: #989ae9;
 }
 .portion1-text p {
   font-size: 1.3rem;
@@ -101,6 +113,13 @@ header {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
+  transition: all .2s linear 0s;
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
+
+}
+.portion1-text .portion1-button:hover {
+  color: #dddddd;
+  background-color: #989ae9;
 }
 
 
@@ -124,6 +143,10 @@ header {
   width: 60vw;
   height: auto;
   margin-top: 2rem;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.portion-lock video {
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
 }
 .section-title{
    color: #4f4f4f;
@@ -164,6 +187,7 @@ h2.section-title.bot {
   margin-left: 1rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
 }
 .like h5, .like p{
   width: 80%;
@@ -184,7 +208,11 @@ h2.section-title.bot {
   margin-left: 1.6rem;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: #9a9ae9
+  color: #9a9ae9;
+  transition: all .2s linear 0s;
+}
+.like .read-more-link:hover {
+  letter-spacing: .2rem;
 }
 .add-tops {
   margin-top: 0;
@@ -221,8 +249,8 @@ h2.section-title.bot {
   padding-right: 1rem;
   padding-left: 1rem;
   margin-bottom: 1rem;
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
 }
-
 
 
 
@@ -290,6 +318,12 @@ h2.section-title.bot {
   margin-right: .8rem;
   background-color: #dddddd;
   }
+  .crazy .term {
+    transition: all .2s linear 0s;
+  }
+  .crazy .term:hover {
+    color: #9a9ae9;
+  }
 
 /* --- Section Media Quiries ---
 --- Section Media Quiries ---
@@ -333,11 +367,13 @@ h2.section-title.bot {
     margin-right: 1.8rem;
   }
 
-  .mobile-navigator li a {
-   
+ /* removed because it did not appear to effect the code.
+
+ .mobile-navigator li a {
     text-decoration: none;
      color: #7f7f7f;
-  } 
+  } */
+
 
  /* media query portion 1*/
 
@@ -390,7 +426,14 @@ h2.section-title.bot {
   }
   .like .read-more-link {
     margin-left: 2rem;
+    margin-right: 4rem;
+
+
   }
+  .portion2-menu-block {
+    text-align: center;
+  }
+
   .portion2-menu .gray {
     background-color: #FFFFFF;
   }
@@ -431,6 +474,7 @@ h2.section-title.bot {
     padding-right: 1rem;
     padding-left: 1rem;
     margin-bottom: .5rem;
+    box-shadow: none;
   }
   .portion3 h2 {
     padding-top: 0;
@@ -457,7 +501,6 @@ h2.section-title.bot {
   .crazy a{
     font-size: .8rem;
   }
-
 
 }
 
@@ -499,7 +542,7 @@ h2.section-title.bot {
     margin-right: auto;
   }
   #capt {
-    font-size: .4rem;
+    font-size: .8rem;
   }
    .disclaimer {
     font-size: .7rem;
@@ -507,7 +550,11 @@ h2.section-title.bot {
   .crazy a{
     font-size: .7rem;
   }
+  .navigator a {
+    font-size: .7rem;
 
+  }
+ 
 
 }
 
