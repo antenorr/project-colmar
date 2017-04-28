@@ -93,11 +93,11 @@ header {
   margin-top: 1.5rem
 }
 .portion1-text .portion1-button {
-  padding: 8px 20px;
+  padding: .5rem 0;
   background-color: #7f7f7f;
   display: inline-block;
   margin-top: 2rem;
-  width: 250px;
+  width: 23rem;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -368,10 +368,6 @@ h2.section-title.bot {
   .portion-lock.text-below {
     display: none;
   }
- 
-  .portion2-menu {
-    
-  }
 
   .portion2-menu-block {
       width: initial; 
@@ -398,11 +394,123 @@ h2.section-title.bot {
   .portion2-menu .gray {
     background-color: #FFFFFF;
   }
+  .media32 {
+    margin-bottom: 2rem;
+  }
+  .portion2-menu-block.add-tops.gray.media32 {
+    padding-bottom: 0;
+  }
 
 /*portion 3 -portion*/
+  .portion3 {
+    background-color: #FFFFFF;
+  }
+  .portion3-block img {
+    display: none;
+  }
+  .learn-describe h6, .learn-describe p {
+    display: none;
+  }
+  
+  .portion3-heading {
+    font-size: 1.5rem;
+    color: #4f4f4f;
+    padding: 1rem 1rem;
+    background-color: #eeeeee;
+  }
+  .learn-describe {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 01.3rem;
+  }
+  .portion3-block {
+    width: 100vw;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: .5rem;
+  }
+  .portion3 h2 {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+/*portion 4 - portion */
+  .portion-lock.text-below.dismiss {
+    display: initial;
+    width: 100vw;
+  }
+  .portion-lock.text-below.dismiss h2, .portion-lock.text-below.dismiss p {
+    display: none;
+  }
+  .mediaNone {
+    display: none;
+  }
+  .mediaWide {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .disclaimer {
+    font-size: .8rem
+  }
+  .crazy a{
+    font-size: .8rem;
+  }
 
 
 }
+
+/*--- Media Query for pads ---*/
+
+@media only screen and (max-width:995px){
+
+ .portion-jumbo {
+    
+    width: 100%;
+    display: relative;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  .portion1-text .portion1-button {
+    margin-bottom: 2rem;
+  }
+  .portion {
+    width: initial;
+    display: initial;
+    flex-wrap: initial;
+    text-align: center;
+  }
+  .portion-lock {
+    width: initial;
+  }
+  .portion2-menu {
+    display: initial;
+    flex-direction: initial;
+    text-align: center;
+  }
+  .portion2-menu-block {
+    width: 26.437rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #capt {
+    font-size: .4rem;
+  }
+   .disclaimer {
+    font-size: .7rem;
+  }
+  .crazy a{
+    font-size: .7rem;
+  }
+
+
+}
+
 
 
 
