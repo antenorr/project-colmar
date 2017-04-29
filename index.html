@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Colmar Academy | Web Development School</title>
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style-prefix.css">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -16,11 +16,11 @@
 
   <header>
     <div class="menu">
-      <img src="resources/assets/images/ic-logo.svg">
+      <img src="resources/assets/images/ic-logo.svg" alt="company logo">
       <p>COLMAR<span>ACADEMY</span></p>
     </div>
     <nav class="navigator">
-      <ul>
+      <ul role="presentation">
         <li><a href="#campus">On Campus</a></li>
         <li><a href="#online">Online</a></li>
         <li><a href="#company">For companies</a></li>
@@ -31,8 +31,8 @@
 
    <mobile-header>
     <nav class="mobile-navigator">
-      <ul>
-        <li><a href="#"><img src="resources/assets/images/ic-logo.svg"></a></li>
+      <ul role="presentation">
+        <li><a href="#"><img src="resources/assets/images/ic-logo.svg" alt="company logo"></a></li>
         <li><a href="#campus"><img src="resources/assets/images/ic-on-campus.svg"></a></li>
         <li><a href="#online"><img src="resources/assets/images/ic-online.svg"></a></li>
         <li><a href="#signin"><img src="resources/assets/images/ic-login.svg"></a></li>
@@ -63,7 +63,7 @@
 
   <div class="portion">
     <div class="portion-lock text-below">
-      <img src="resources/assets/images/information-main.jpg" alt="student reading">
+      <img src="resources/assets/images/information-main.jpg" alt="staff member reading">
       <h2 class="section-title">It doesn't hurt to keep practicing</h2>
       <p class="site-descripts">Many of our students come from various technical and professional backgrounds and we are proud to encourage all students young and old to find their way to out campus and start learning</p>
       <p id="capt">Emanuel, Sr. Strategist at hiring.com</p>
@@ -74,7 +74,7 @@
    <!--  --- menu block 1 ---  -->
     
       <div class="portion2-menu-block">
-        <img class="menu-item-photo" src="resources/assets/images/information-orientation.jpg"></img>
+        <img class="menu-item-photo" src="resources/assets/images/information-orientation.jpg" alt="photo of students walk to class"></img>
         <div class="like">
           <h5 class="menu-heading">Orientation date</h5>
           <p class="site-descripts">Tue 10/11 and Wed 10/12 8am-3pm</p>
@@ -88,7 +88,7 @@
 
        <div class="portion2-menu-block add-tops">
        
-          <img class="menu-item-photo" src="resources/assets/images/information-campus.jpg"></img>
+          <img class="menu-item-photo" src="resources/assets/images/information-campus.jpg" alt="photo of study hall on campus"></img>
         <div class="like">
           <h5 class="menu-heading">Visit our Campus</h5>
           <p class="site-descripts">Find the closest campus near you.</p>
@@ -98,7 +98,7 @@
    <!--  --- menu block 3 ---  -->
       <div class="portion2-menu-block add-tops gray media32">
        
-          <img class="menu-item-photo" src="resources/assets/images/information-guest-lecture.jpg"></img>
+          <img class="menu-item-photo" src="resources/assets/images/information-guest-lecture.jpg" alt="photo of guest speaker"></img>
        
         <div class="like">
           <h5 class="menu-heading">Our Guest Lecturer</h5>
@@ -115,7 +115,7 @@
 <!-- --- --- Start Learning / Portion 3 --- --- -->
   <div class="portion3">
     <h2 class="section-title bot">Start Learning</h2>
-
+  </div>
     <div class="portion3-flexbox">
 
 <!--  --- Portion 3 - min box 1/6 --- -->
@@ -123,7 +123,7 @@
 
 
     <div class="portion3-block">
-        <img class="portion3-photo" src="resources/assets/images/course-software.jpg">
+        <img class="portion3-photo" src="resources/assets/images/course-software.jpg" alt="photo of computers ">
       <div class="learn-describe">
         <h5 class="portion3-heading">Software engineering</h5>
         <h6 class="portion3-mini-heading">Courses</h6>
@@ -135,7 +135,7 @@
     <!--  --- Portion 3 - min box 2/6  --- -->
 
 <div class="portion3-block">
-        <img class="portion3-photo" src="resources/assets/images/course-computer-art.jpg">
+        <img class="portion3-photo" src="resources/assets/images/course-computer-art.jpg" alt="photo of cell phone">
       <div class="learn-describe">
         <h5 class="portion3-heading">Computer art</h5>
         <h6 class="portion3-mini-heading">Courses</h6>
@@ -146,7 +146,7 @@
 
     <!--  --- Portion 3 - min box 3/6  --- -->
 <div class="portion3-block">
-        <img class="portion3-photo" src="resources/assets/images/course-design.jpg">
+        <img class="portion3-photo" src="resources/assets/images/course-design.jpg" alt="">
       <div class="learn-describe">
         <h5 class="portion3-heading">Design</h5>
         <h6 class="portion3-mini-heading">Courses</h6>
@@ -157,7 +157,7 @@
 
     <!--  --- Portion 3 - min box 4/6 --- -->
 <div class="portion3-block">
-        <img class="portion3-photo" src="resources/assets/images/course-data.jpg">
+        <img class="portion3-photo" src="resources/assets/images/course-data.jpg" alt="photo of laptop computer">
       <div class="learn-describe">
         <h5 class="portion3-heading">Data</h5>
         <h6 class="portion3-mini-heading">courses</h6>
@@ -169,7 +169,7 @@
     <!--  --- Portion 3 - min box 5/6  --- -->
 
 <div class="portion3-block">
-        <img class="portion3-photo" src="resources/assets/images/course-business.jpg">
+        <img class="portion3-photo" src="resources/assets/images/course-business.jpg" alt="">
       <div class="learn-describe">
         <h5 class="portion3-heading">Business</h5>
         <h6 class="portion3-mini-heading">courses</h6>
@@ -181,7 +181,7 @@
 
     <!--  --- Portion 3 - min box 6/6  --- -->
 <div class="portion3-block">
-        <img class="portion3-photo" src="resources/assets/images/course-marketing.jpg">
+        <img class="portion3-photo" src="resources/assets/images/course-marketing.jpg" alt="photo of wearable technology watch">
       <div class="learn-describe media32">
         <h5 class="portion3-heading">Marketing</h5>
         <h6 class="portion3-mini-heading">courses</h6>
@@ -189,7 +189,7 @@
       </div>
     </div>
 
-    </div>
+    <!-- </div> -->
 
   </div>
 
